@@ -1,53 +1,427 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>远程网页源代码读取</title>
-<style type="text/css">
-/* 页面字体样式 */
-body, td, input, textarea {
-font-family:Arial;
-font-size:12px;
-}
-</style>
-<script type="text/javascript">
-//用于创建XMLHttpRequest对象
-function createXmlHttp() {
-//根据window.XMLHttpRequest对象是否存在使用不同的创建方式
-if (window.XMLHttpRequest) {
-xmlHttp = new XMLHttpRequest(); //FireFox、Opera等浏览器支持的创建方式
-} else {
-xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");//IE浏览器支持的创建方式
-}
-}
-//直接通过XMLHttpRequest对象获取远程网页源代码
-function getSource() {
-var url = document.getElementById("url").value; //获取目标地址信息
-//地址为空时提示用户输入
-if (url == "") {
-alert("请输入网页地址。");
-return;
-}
-document.getElementById("source").value = "正在加载……"; //提示正在加载
-createXmlHttp(); //创建XMLHttpRequest对象
-xmlHttp.onreadystatechange = writeSource; //设置回调函数
-xmlHttp.open("GET", url, true);
-xmlHttp.send(null);
-}
-//将远程网页源代码写入页面文字区域
-function writeSource() {
-if (xmlHttp.readyState == 4) {
-document.getElementById("source").value = xmlHttp.responseText;
-}
-}
-</script>
+	<meta name="referrer" content="never">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>斗罗大陆第一季详情介绍-斗罗大陆第一季在线观看-斗罗大陆第一季网盘下载百度下载 快速影视 - 快速影视网 52088 迅速影视 急速电影 电影天堂 </title>
+    <meta name="keywords" content="斗罗大陆第一季在线收看,斗罗大陆第一季网盘下载百度盘下载 快速影视" />
+    <meta name="description" content="斗罗大陆第一季剧情:唐门外门弟子唐三，因偷学内门绝学为唐门所不容，跳崖明志时却发现没有死，反而以另外一个身份来到了另一个世界，一个属于武魂的世界，名叫斗罗大陆。这里没有魔法，没有斗气，没有武术，却有神奇的武魂。这里的每个" />
+    <meta name="referrer" content="never">
+<link rel="shortcut icon" type="image/x-icon" href="/template/shuang11/mob/favicon.png">
+<link rel="stylesheet" type="text/css" href="/template/shuang11/mob/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/template/shuang11/mob/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/template/shuang11/mob/swiper/swiper.css">
+<link rel="stylesheet" type="text/css" href="/template/shuang11/mob/css/common.css">
+<script>var maccms={"path":"","mid":"1","url":"www.yizhimianfei.com","wapurl":"m.yizhimianfei.com","mob_status":"2","css":"/template/mob/mob/"};</script>
+<script src="/template/shuang11/mob/js/jquery.min.js"></script>
+<script src="/template/shuang11/mob/js/home.js"></script>
+<script src="/template/shuang11/mob/js/bottom.js"></script>
+<script type="text/javascript" src="/template/shuang11/mob/swiper/swiper.js"></script>
+<link rel="stylesheet" type="text/css" href="/template/shuang11/mob/css/movie_details.css">
 </head>
 <body>
-<h1>远程网页源代码读取</h1>
-<div>
-地址：<input type="text" id="url">
-<input type="button" onclick="getSource()" value="获取源码">
+<header class="header" id="header">
+    <div class="container">
+        <h1 class="logo"><a href="/" title="快速影视网 52088 迅速影视 急速电影 电影天堂 "></a></h1>
+        <nav class="main-nav swiper-container">
+            <ul class="nav-list swiper-wrapper">
+                  <li class="nav-item swiper-slide"><a href="/"><i class="fa fa-home"></i>首页</a></li>
+				                    <li class="nav-item swiper-slide"><a href="/sp/1/"><i class="fa fa-film"></i>电影</a></li>
+				                      <li class="nav-item swiper-slide"><a href="/sp/2/"><i class="fa fa-tv"></i>连续剧</a></li>
+					                    <li class="nav-item swiper-slide"><a href="/sp/3/"><i class="fa fa-video-camera"></i>综艺</a></li>
+					                    <li class="nav-item swiper-slide"><a href="/sp/4/"><i class="fa fa-github-alt"></i>动漫</a></li>
+				
+										
+                                
+                               
+								<li class="nav-item swiper-slide"><a href="/label/new.html"><i class="fa fa-window-maximize"></i>最近更新</a></li>
+                                <li class="nav-item swiper-slide"><a href="/index.php/gbook/index.html"><i class="fa fa-edit"></i>留言板</a></li>
+								
+                                </ul>
+        </nav>
+        <div class="more-nav">
+            <a href="javascript:;" class="more-btn">更多 <i class="fa fa-caret-down"></i></a>
+            <ul class="more-nav-list shadow-triangle-box">
+																<li class="nav-item"><a href="/wz/5/"><i class="fa"></i>影视资讯</a></li>
+								                               <li class="nav-item"><a href="/zt/"><i class="fa"></i>影视专题</a></li>
+
+                       </ul>
+        </div>
+        <div class="search-container">
+        <ul class="right-wrap">
+            <li class="gzh hidden-xs"><a href="javascript:;" title="快速影视网 52088 迅速影视 急速电影 电影天堂 公众号：快速影视网 52088 迅速影视 急速电影 电影天堂 "><i class="fa fa-wechat"></i><em>公众号</em></a>
+                <div class="shadow-triangle-box"><img src="/template/shuang11/mob/img/ewm.jpg" alt="快速影视网 52088 迅速影视 急速电影 电影天堂 公众号"></div>
+            </li>
+            <li class="lyb hidden-xs"><a href="/index.php/gbook/index.html" target="_blank" title="留言板"><i class="fa fa-edit"></i><em>留言板</em></a></li>
+            <li class="play-records"><a href="javascript:;"><i class="fa fa-history" title="播放记录"></i><em>播放记录</em></a></li>
+            <li class="user-wrap hidden-xs"><a href="javascript:;"><i class="fa fa-user-o login-btn" title="登录账户"></i><em>登录账户</em></a></li>
+        </ul>
+            <div class="search-wrapper">
+			    <form id="search" name="search" method="get" action="/index.php/vod/search.html"onSubmit="return qrsearch();">
+                <input type="text" name="wd" class="search-input keywords mac_wd" placeholder="搜索电影/演员/导演" />	
+				<button type="submit" id="searchbutton" class="sbt mac_search"><i class="fa fa-search"></i></button>
+            </form>
+            </div>
+			</div>
+
+    </div>
+	<meta name="referrer" content="never">
+</header>
+<!--当前位置-->
+<main class="main main_movie_details db">
+    <div class="main-content">
+        <section class="introduce sbg">
+            <div class="container">
+                <div class="card-wrap clearfix">
+                    <div class="crumbs-nav mb15"><a href="/"><i class="fa fa-home"></i>首页</a> 
+					<i class="fa fa-angle-double-right"></i><a href="/sp/4/">&nbsp;动漫&nbsp;</a><i class="fa fa-angle-double-right"></i>&nbsp;斗罗大陆第一季</div>
+                    <div class="play-container"></div>
+                    <div class="intro-con clearfix">
+                    	<div class="subject-row-m">
+                            <h1 class="article-subject-m"><a href="/xq/24441/" target="_blank">斗罗大陆第一季</a></h1>
+                            <h5 class="order-name-m"></h5>
+                        </div>
+                        <div class="thumb-wrap">
+                            <img src="/upload/vod/20200325-1/dbf6c0238d9b351d8b12071fd0f79c0b.jpg" alt="斗罗大陆第一季" id="movie_thumb">
+
+                            <label class="state">更新至108集</label>
+                        </div>
+                        <div class="info-wrap low">
+                            <div class="subject-row pc">
+                                <h1 class="article-subject"><a href="/xq/24441/" target="_blank">斗罗大陆第一季</a></h1>
+                                <h5 class="order-name"></h5>
+                            </div>
+                            <p class="director"><label>导演：</label><span><a href="/index.php/vod/search/director/2018.html" target="_blank">2018</a>&nbsp;</span></p>
+                            <p class="performer"><label>主演：</label><span>未知</span></p>
+                            <p class="tags"><label>类型：</label><span>未知</span></p>
+                            <p class="country"><label>地区：</label><span>未知</span></p>
+                            <p class="language"><label>语言：</label><span>未知</span></p>
+                            <p class="year"><label>上映：</label><span>2020-06-14()</span></p>
+                            <p class="duration"><label>片长：</label><span>45分钟</span></p>
+                            <p class="episodes"><label>集数：</label><span>更新至108集</span></p> 
+							<p class="douban_score"><label>评分：</label><span>0.0分</a></span></p>
+                            <div class="like mt15"><a href="/bf/24441/index_1_1.html" title="在线观看" class="fabulous db-fabulous db-fabulous-8696 btn"><i class="fa fa-play"></i>在线观看</a></div>
+                        </div>
+                        <span class="hot"><label>热度：</label><em id="visits_num">5</em>°C</span>
+                    </div>
+                 </div>
+            </div>
+        </section>
+   <section class="play-resource">
+            <div class="container">
+                <div class="card-wrap">
+                    <div class="resource-box">
+                        <div class="hd clearfix">
+                            <div class="resource-box-nav swiper-container">
+                                <ul class="nav nav-tabs swiper-wrapper">
+								                                  <li class="swiper-slide active"><a href="javascript:;" class="tab-nav" title="605-605yun">急速路线(秒播)</a></li>
+								                                  </ul>
+                            </div>
+                        </div>
+                        <div class="bd clearfix">
+						                             <div class="rb-item" style="display:block;">
+                               
+                                <h5 class="item-name"><b>路线</b> 急速路线(秒播) <b>影视名称</b> 斗罗大陆第一季</h5>
+                                <ul class="episodes-list clearfix">
+																	  <li><a href="/bf/24441/index_1_1.html" rel="nofollow">第67集</a></li>
+									  									  <li><a href="/bf/24441/index_1_2.html" rel="nofollow">第68集</a></li>
+									  									  <li><a href="/bf/24441/index_1_3.html" rel="nofollow">第69集</a></li>
+									  									  <li><a href="/bf/24441/index_1_4.html" rel="nofollow">第70集</a></li>
+									  									  <li><a href="/bf/24441/index_1_5.html" rel="nofollow">第71集</a></li>
+									  									  <li><a href="/bf/24441/index_1_6.html" rel="nofollow">第72集</a></li>
+									  									  <li><a href="/bf/24441/index_1_7.html" rel="nofollow">第73集</a></li>
+									  									  <li><a href="/bf/24441/index_1_8.html" rel="nofollow">第74集</a></li>
+									  									  <li><a href="/bf/24441/index_1_9.html" rel="nofollow">第75集</a></li>
+									  									  <li><a href="/bf/24441/index_1_10.html" rel="nofollow">第76集</a></li>
+									  									  <li><a href="/bf/24441/index_1_11.html" rel="nofollow">第77集</a></li>
+									  									  <li><a href="/bf/24441/index_1_12.html" rel="nofollow">第78集</a></li>
+									  									  <li><a href="/bf/24441/index_1_13.html" rel="nofollow">第79集</a></li>
+									  									  <li><a href="/bf/24441/index_1_14.html" rel="nofollow">第80集</a></li>
+									  									  <li><a href="/bf/24441/index_1_15.html" rel="nofollow">第81集</a></li>
+									  									  <li><a href="/bf/24441/index_1_16.html" rel="nofollow">第82集</a></li>
+									  									  <li><a href="/bf/24441/index_1_17.html" rel="nofollow">第83集</a></li>
+									  									  <li><a href="/bf/24441/index_1_18.html" rel="nofollow">第84集</a></li>
+									  									  <li><a href="/bf/24441/index_1_19.html" rel="nofollow">第85集</a></li>
+									  									  <li><a href="/bf/24441/index_1_20.html" rel="nofollow">第86集</a></li>
+									  									  <li><a href="/bf/24441/index_1_21.html" rel="nofollow">第87集</a></li>
+									  									  <li><a href="/bf/24441/index_1_22.html" rel="nofollow">第88集</a></li>
+									  									  <li><a href="/bf/24441/index_1_23.html" rel="nofollow">第89集</a></li>
+									  									  <li><a href="/bf/24441/index_1_24.html" rel="nofollow">第90集</a></li>
+									  									  <li><a href="/bf/24441/index_1_25.html" rel="nofollow">第91集</a></li>
+									  									  <li><a href="/bf/24441/index_1_26.html" rel="nofollow">第92集</a></li>
+									  									  <li><a href="/bf/24441/index_1_27.html" rel="nofollow">第93集</a></li>
+									  									  <li><a href="/bf/24441/index_1_28.html" rel="nofollow">第94集</a></li>
+									  									  <li><a href="/bf/24441/index_1_29.html" rel="nofollow">第95集</a></li>
+									  									  <li><a href="/bf/24441/index_1_30.html" rel="nofollow">第96集</a></li>
+									  									  <li><a href="/bf/24441/index_1_31.html" rel="nofollow">第97集</a></li>
+									  									  <li><a href="/bf/24441/index_1_32.html" rel="nofollow">第98集</a></li>
+									  									  <li><a href="/bf/24441/index_1_33.html" rel="nofollow">第99集</a></li>
+									  									  <li><a href="/bf/24441/index_1_34.html" rel="nofollow">第100集</a></li>
+									  									  <li><a href="/bf/24441/index_1_35.html" rel="nofollow">第101集</a></li>
+									  									  <li><a href="/bf/24441/index_1_36.html" rel="nofollow">第102集</a></li>
+									  									  <li><a href="/bf/24441/index_1_37.html" rel="nofollow">第103集</a></li>
+									  									  <li><a href="/bf/24441/index_1_38.html" rel="nofollow">第104集</a></li>
+									  									  <li><a href="/bf/24441/index_1_39.html" rel="nofollow">第105集</a></li>
+									  									  <li><a href="/bf/24441/index_1_40.html" rel="nofollow">第106集</a></li>
+									  									  <li><a href="/bf/24441/index_1_41.html" rel="nofollow">第107集</a></li>
+									  									  <li><a href="/bf/24441/index_1_42.html" rel="nofollow">第108集</a></li>
+									  									</ul>
+									</div>
+							                            </div>
+                    </div>
+                     <p class="play-tips"><i class="fa fa-heart"></i>不能播放请刷新 或者更换浏览器，多次不能播放请留言报错</p>
+
+                </div>
+            </div>
+        </section>
+ <!-- 广告 <a href="http://6nxi.top" target="_blank"><img src="http://cicitv.cn/1.png" style="width:100%;" border="0" ></a>  -->
+  <section class="movie-summary sbg">
+            <div class="container">
+                <div class="card-wrap clearfix">
+                    <div class="title mb10"><h3 class="theme">剧情简介</h3></div>
+                    <div class="summary-con">
+                        <p>快速影视网 52088 迅速影视 急速电影 电影天堂 大全www.yizhimianfei.com第一时间收录《斗罗大陆第一季》并提供免费在线观看。斗罗大陆第一季上映于 2020-06-14()，是一部制片作品，由等领衔主演。影片(剧)类型为动漫，对白语言为。全片(剧)时长45分钟，喜欢快速影视网 52088 迅速影视 急速电影 电影天堂 欢迎分享给身边的朋友，顺祝您观影愉快！</p>
+                        <p>以下为斗罗大陆第一季剧情简介：唐门外门弟子唐三，因偷学内门绝学为唐门所不容，跳崖明志时却发现没有死，反而以另外一个身份来到了另一个世界，一个属于武魂的世界，名叫斗罗大陆。这里没有魔法，没有斗气，没有武术，却有神奇的武魂。这里的每个</p>
+                        <p>快速影视网 52088 迅速影视 急速电影 电影天堂 大全不参与斗罗大陆第一季的录制上传，当前播放线路分别由急速路线(秒播)采集。有关斗罗大陆第一季的后续高清完整版本资源会陆续放出，敬请关注。</p>
+
+                    </div>
+                    <div class="mark-wrap">
+                        <p class="updatetime">更新时间：昨天00:59</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <section class="you-like ys-recommend">
+        <div class="container">
+            <div class="new-up card-wrap detailplay">
+                <div class="title">
+                    <h2 class="theme clearfix"><span class="active">猜你喜欢</span></h2>
+                    <div class="rolling-tips swiper-container">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide"><a href="/sp/4/" class="today_up fr blue" target="_blank">现已收录动漫 2320 部</a></li>
+                            <li class="swiper-slide"><a href="/sp/4/" class="today_up fr blue" target="_blank">今日更新动漫 24 部</a></li>
+                            <li class="swiper-slide"><em class="today-up fr">本站网址：www.yizhimianfei.com</em></li>
+							<li class="swiper-slide"><a href="/sp/4/" class="today-up fr" target="_blank">豆瓣优片库，万部动漫在线选 <i class="fa fa-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content clearfix">
+                    <ul class="new-up-list lazy-load-list">
+					                                <li class="item">
+                                <div class="item-con">
+                                    <span class="state"><em>24集全
+      </em></span>
+                                    <a href="/xq/25517/" class="thumb" title="DARLING in the FRANXX（无修） 03月25日" target="_blank"><img class="lazyload" data-original="http://img.fsmkbl.cn/Uploads/vod/2018-01-14/5a5a2ff0decc3.jpg" alt="DARLING in the FRANXX（无修）"><span class="hot"><b>36</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="DARLING in the FRANXX（无修） 03月25日"><a href="/xq/25517/" target="_blank"><b>DARLING in the FRANXX（无修）</b></a><span class="update">03月25日</span></h5>
+                                    <a href="/xq/25517/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-03-31(
+日本)"><label>上映：</label>2020-03-31(
+日本)</p>
+                                        <p class="area" title="
+日本"><label>地区：</label>
+日本</p>
+                                        <p class="director" title="锦织敦史"><label>导演：</label>锦织敦史</p>
+                                        <p class="performer" title=""><label>主演：</label>未知</p>
+                                    </a>
+                                </div>
+                            </li>
+						                                <li class="item">
+                                <div class="item-con">
+                                    <span class="state"><em>            更新至107集</em></span>
+                                    <a href="/xq/24628/" class="thumb" title="斗罗大陆 昨天00:10" target="_blank"><img class="lazyload" data-original="https://p.ssl.qhimg.com/d/dy_695e41b4208ee7f19ee1c741bb703d3d." alt="斗罗大陆"><span class="hot"><b>32</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="斗罗大陆 昨天00:10"><a href="/xq/24628/" target="_blank"><b>斗罗大陆</b></a><span class="update">昨天00:10</span></h5>
+                                    <a href="/xq/24628/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-06-14(
+大陆)"><label>上映：</label>2020-06-14(
+大陆)</p>
+                                        <p class="area" title="
+大陆"><label>地区：</label>
+大陆</p>
+                                        <p class="director" title="沈乐平"><label>导演：</label>沈乐平</p>
+                                        <p class="performer" title="沈磊,程玉珠,黄翔宇"><label>主演：</label>沈磊,程玉珠,黄翔宇</p>
+                                    </a>
+                                </div>
+                            </li>
+						                                <li class="item">
+                                <div class="item-con">
+                                    <span class="state"><em>全12集</em></span>
+                                    <a href="/xq/25112/" class="thumb" title="贤者之孙 05月10日" target="_blank"><img class="lazyload" data-original="http://img.fsmkbl.cn/Uploads/vod/2019-04-10/5cae0d3859272.jpg" alt="贤者之孙"><span class="hot"><b>18</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="贤者之孙 05月10日"><a href="/xq/25112/" target="_blank"><b>贤者之孙</b></a><span class="update">05月10日</span></h5>
+                                    <a href="/xq/25112/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-05-16(
+日本)"><label>上映：</label>2020-05-16(
+日本)</p>
+                                        <p class="area" title="
+日本"><label>地区：</label>
+日本</p>
+                                        <p class="director" title="田村正文"><label>导演：</label>田村正文</p>
+                                        <p class="performer" title="小林裕介,小松昌平,本泉莉奈,若井友希,屋良有作,高岛雅罗,森川智之"><label>主演：</label>小林裕介,小松昌平,本泉莉奈,若井友希,屋良有作,高岛雅罗,森川智之</p>
+                                    </a>
+                                </div>
+                            </li>
+						                                <li class="item">
+                                <div class="item-con">
+                                    <span class="state"><em>12集全
+      </em></span>
+                                    <a href="/xq/32825/" class="thumb" title="简单易懂的现代魔法 03月29日" target="_blank"><img class="lazyload" data-original="https://p.ssl.qhimg.com/d/dy_eefb555b2923129f9a302a9b4e627a24.jpg" alt="简单易懂的现代魔法"><span class="hot"><b>13</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="简单易懂的现代魔法 03月29日"><a href="/xq/32825/" target="_blank"><b>简单易懂的现代魔法</b></a><span class="update">03月29日</span></h5>
+                                    <a href="/xq/32825/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-04-13(
+日本)"><label>上映：</label>2020-04-13(
+日本)</p>
+                                        <p class="area" title="
+日本"><label>地区：</label>
+日本</p>
+                                        <p class="director" title="黑田康弘神保昌登长冈义孝中山敦史室谷靖菊池聪延山崎光惠吉田理纱子村田尚树园田雅裕"><label>导演：</label>黑田康弘神保昌登长冈义孝中山敦史室谷靖菊池聪延山崎光惠吉田理纱子村田尚树园田雅裕</p>
+                                        <p class="performer" title="野中蓝,生天目仁美,户松遥,寿美菜子,田村睦心,浅沼晋太郎"><label>主演：</label>野中蓝,生天目仁美,户松遥,寿美菜子,田村睦心,浅沼晋太郎</p>
+                                    </a>
+                                </div>
+                            </li>
+						                                <li class="item">
+                                <div class="item-con">
+                                    <span class="state"><em>24集全
+      </em></span>
+                                    <a href="/xq/25498/" class="thumb" title="斩·赤红之瞳（无修） 03月25日" target="_blank"><img class="lazyload" data-original="http://img.fsmkbl.cn/Uploads/vod/2019-02-23/5c70ee511c23a.jpg" alt="斩·赤红之瞳（无修）"><span class="hot"><b>12</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="斩·赤红之瞳（无修） 03月25日"><a href="/xq/25498/" target="_blank"><b>斩·赤红之瞳（无修）</b></a><span class="update">03月25日</span></h5>
+                                    <a href="/xq/25498/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-03-31(
+日本)"><label>上映：</label>2020-03-31(
+日本)</p>
+                                        <p class="area" title="
+日本"><label>地区：</label>
+日本</p>
+                                        <p class="director" title="小林智树"><label>导演：</label>小林智树</p>
+                                        <p class="performer" title="雨宫天,齐藤壮马,田村由加莉,浅川悠,能登麻美子,松冈祯丞,小西克幸,水野理纱,明坂聪美"><label>主演：</label>雨宫天,齐藤壮马,田村由加莉,浅川悠,能登麻美子,松冈祯丞,小西克幸,水野理纱,明坂聪美</p>
+                                    </a>
+                                </div>
+                            </li>
+						                                <li class="item">
+                                <div class="item-con">
+                                    <span class="state"><em>12集全
+      </em></span>
+                                    <a href="/xq/25163/" class="thumb" title="五等分的新娘 05月10日" target="_blank"><img class="lazyload" data-original="http://img.fsmkbl.cn/Uploads/vod/2019-02-21/5c6d863486a47.jpg" alt="五等分的新娘"><span class="hot"><b>9</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="五等分的新娘 05月10日"><a href="/xq/25163/" target="_blank"><b>五等分的新娘</b></a><span class="update">05月10日</span></h5>
+                                    <a href="/xq/25163/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-05-16(
+日本)"><label>上映：</label>2020-05-16(
+日本)</p>
+                                        <p class="area" title="
+日本"><label>地区：</label>
+日本</p>
+                                        <p class="director" title="桑原智"><label>导演：</label>桑原智</p>
+                                        <p class="performer" title="松冈祯丞,花泽香菜,竹达彩奈,伊藤美来,佐仓绫音,水濑祈"><label>主演：</label>松冈祯丞,花泽香菜,竹达彩奈,伊藤美来,佐仓绫音,水濑祈</p>
+                                    </a>
+                                </div>
+                            </li>
+						                                <li class="item hidex-3">
+                                <div class="item-con">
+                                    <span class="state"><em>15集全
+      </em></span>
+                                    <a href="/xq/24874/" class="thumb" title="深夜的超自然公务员 03月25日" target="_blank"><img class="lazyload" data-original="http://img.fsmkbl.cn/Uploads/vod/2019-04-07/5ca9f91044f2f.jpg" alt="深夜的超自然公务员"><span class="hot"><b>7</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="深夜的超自然公务员 03月25日"><a href="/xq/24874/" target="_blank"><b>深夜的超自然公务员</b></a><span class="update">03月25日</span></h5>
+                                    <a href="/xq/24874/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-03-31(
+日本)"><label>上映：</label>2020-03-31(
+日本)</p>
+                                        <p class="area" title="
+日本"><label>地区：</label>
+日本</p>
+                                        <p class="director" title="渡邊哲哉"><label>导演：</label>渡邊哲哉</p>
+                                        <p class="performer" title="福山润,前野智昭,入野自由,游佐浩二,樱井孝宏,土岐隼一,山本和臣"><label>主演：</label>福山润,前野智昭,入野自由,游佐浩二,樱井孝宏,土岐隼一,山本和臣</p>
+                                    </a>
+                                </div>
+                            </li>
+						                                <li class="item showx-2 hide-0">
+                                <div class="item-con">
+                                    <span class="state"><em>更新至108集</em></span>
+                                    <a href="/xq/24441/" class="thumb" title="斗罗大陆第一季 昨天00:59" target="_blank"><img class="lazyload" data-original="/upload/vod/20200325-1/dbf6c0238d9b351d8b12071fd0f79c0b.jpg" alt="斗罗大陆第一季"><span class="hot"><b>5</b><i>°C</i></span></a>
+                                    <h5 class="subject" title="斗罗大陆第一季 昨天00:59"><a href="/xq/24441/" target="_blank"><b>斗罗大陆第一季</b></a><span class="update">昨天00:59</span></h5>
+                                    <a href="/xq/24441/" class="info-layer">
+                                        <p class="tags" title=""><label>类型：</label></p>
+                                        <p class="year" title="2020-05-02()"><label>上映：</label>2020-05-02()</p>
+                                        <p class="area" title=""><label>地区：</label>未知</p>
+                                        <p class="director" title="2018"><label>导演：</label>2018</p>
+                                        <p class="performer" title=""><label>主演：</label>未知</p>
+                                    </a>
+                                </div>
+                            </li>
+						                      </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comment-wrap sbg">
+        <div class="container">
+            <div class="comment-list card-wrap">
+    <h4 class="theme">精彩影评</h4>
+    <div class="content">
+    <div class="mac_comment" data-id="24441" data-mid="1" ></div>
+    <script>
+        $(function(){
+            MAC.Comment.Login = 0;
+            MAC.Comment.Verify = 0;
+            MAC.Comment.Init();
+            MAC.Comment.Show(1);
+        });
+    </script>
+       </div>
+	 </div> 
+
+</section>
+    <section class="comment-wrap sbg">
+        <div class="container">
+       <div class="search-wrap card-wrap common-search">
+    <div class="tips"><i class="fa fa-search"></i> 现已收录<em style="color:#d04341;">29088</em>部影视资源，搜一搜找到你想要的</div>
+    <div class="drop-box">
+	<form id="search" name="search" method="get" action="/index.php/vod/search.html" onSubmit="return qrsearch();">
+		<input type="text" name="wd" class="search-input mac_wd keywords" value="" placeholder="搜索电影/演员/导演" />
+        <input type="submit" id="searchbutton"  class="sbt btn btn-primary btn-sm search-button mac_search" value="搜索影片" />
+       </form>
+    </div>
 </div>
-<textarea rows="10" cols="80" id="source"></textarea>
+    </div>
+    </div>
+</section>
+</main>
+<footer class="footer">
+    <div class="container">
+
+        <div class="bottom">
+            <p>Copyright © 2018~2021 · <a href="www.yizhimianfei.com" class="js-index-href" title="快速影视网 52088 迅速影视 急速电影 电影天堂 ">快速影视网 52088 迅速影视 急速电影 电影天堂  www.yizhimianfei.com</a></p>
+            <div class="float-box">
+                <i class="fa fa-angle-up" id="goTop" title="返回顶部"></i>
+            </div>
+        </div>
+    <script type="text/javascript" src="https://js.users.51.la/19476447.js"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+    </div>
+</footer>
+
 </body>
 </html>
